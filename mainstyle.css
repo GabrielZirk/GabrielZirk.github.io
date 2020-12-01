@@ -8,15 +8,18 @@
     color: #0e1011;
   }
 .navbar {
- padding-top: 15px;
-padding-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    margin: 0;
   }
-
+.navbar-default {
+  border:none !Important;
+}
 .navbar-nav  li a:hover {
     color: #215fb1 !important;
   }
