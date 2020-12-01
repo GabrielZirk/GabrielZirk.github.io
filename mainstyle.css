@@ -22,7 +22,7 @@
   }
 
 .navbar-default {
-  border:none !Important;
+    border:none !Important;
 }
 .navbar-nav  li a:hover {
     color: #215fb1 !important;
