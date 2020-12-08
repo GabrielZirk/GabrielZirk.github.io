@@ -1,31 +1,32 @@
 /* myStyle.css */
-.right {
-    text-align:right; ;
-}
-
 .body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #0e1011;
+    color: #000000;
     background-color: #7795bd
   }
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
     border: 0;
-    border-radius: 0 !important;
     margin-bottom: 0;
     font-size: 16px;
     letter-spacing: 5px;
     margin: 0;
+    padding: 0px;
+    background-color: transparent;
   }
 
-.navbar-default {
-    border:none !Important;
-    }
+.navbar a {
+    color: rgb(0, 0, 0) !important;
+}
 
 .navbar-nav  li a:hover {
     color: #215fb1 !important;
   }
- 
+
+.jumbotron{
+  background-image: url("img/mount_everest.jpg");
+  background-size: cover;
+  background-position: center, center;
+  background-blend-mode: soft-light;
+}
