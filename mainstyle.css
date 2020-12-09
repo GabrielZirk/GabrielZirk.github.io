@@ -14,10 +14,6 @@
     margin: 0;
     padding: 0px;
     background-color: transparent;
-
-  }
-.navbar-toggle {
-    background-color: #4ba16f;
   }
 
 .navbar a {
@@ -42,3 +38,43 @@
   color: white;
 }
 
+.navbar-default button.navbar-toggle.collapsed:focus,
+.navbar-default button.navbar-toggle.collapsed{ background-color: transparent;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+    border-color: transparent;
+}
+
+.navbar-default button.navbar-toggle:focus,
+.navbar-default button.navbar-toggle.collapsed:hover{ background-color:white;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.carousel {
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  ...
+}
+.carousel-inner .item{
+  height:500px;
+  background-size:cover;
+  background-position: center center;
+  background-color: white;
+  border-radius: 5 px;
+  }
+  .carousel-control.left, .carousel-control.right {
+    background-image: none
+}
