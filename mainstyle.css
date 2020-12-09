@@ -3,7 +3,7 @@
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #000000;
-    background-color: #7795bd
+    background-color: #4ba16f
   }
 
 .navbar {
@@ -21,12 +21,14 @@
 }
 
 .navbar-nav  li a:hover {
-    color: #215fb1 !important;
+    color: #ffffff !important;
   }
 
 .jumbotron{
-  background-image: url("img/mount_everest.jpg");
+  background-image: url("img/forrest_background.jpg");
+  background-color: rgba(255, 255, 255, 0.521);
   background-size: cover;
-  background-position: center, center;
-  background-blend-mode: soft-light;
+  background-position: center;
+  background-blend-mode: normal;
+  color: white;
 }
