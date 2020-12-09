@@ -3,7 +3,7 @@
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #000000;
-    background-color: #4ba16f
+    background-color: #4ba16f;
   }
 
 .navbar {
@@ -14,6 +14,10 @@
     margin: 0;
     padding: 0px;
     background-color: transparent;
+
+  }
+.navbar-toggle {
+    background-color: #4ba16f;
   }
 
 .navbar a {
@@ -22,6 +26,11 @@
 
 .navbar-nav  li a:hover {
     color: #ffffff !important;
+  }
+  
+  .navbar.navbar-default .navbar-collapse {
+    border: none;
+    box-shadow: none;
   }
 
 .jumbotron{
@@ -32,3 +41,4 @@
   background-blend-mode: normal;
   color: white;
 }
+
