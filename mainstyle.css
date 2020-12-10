@@ -75,7 +75,7 @@ h2 {
   font: 300 30px East Sea Dokdo, sans-serif;
   font-size: 40px;
   color: #ffffff;
-  font-weight: 200;
+  font-weight: 100;
   margin-bottom: 30px;
   letter-spacing: 5px;
 }
@@ -85,8 +85,9 @@ h4 {
   font-size: 19px;
   line-height: 1.375em;
   color: #000000;
-  font-weight: 800;
+  font-weight: 400;
   margin-bottom: 30px;
+  line-height: 1.5;
 }  
 
 .spacer {
