@@ -17,122 +17,124 @@
 </head>
 
 <body class="body" href="top">
+  <div class="container">
 
+    <header>
 
-  <header>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
 
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle navbar-toggle-right" data-toggle="collapse"
-            data-target="#header-menu">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle navbar-toggle-right" data-toggle="collapse"
+              data-target="#header-menu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="header-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#top">about:me</a></li>
+              <li><a href="#projects">my:projects</a></li>
+              <li><a href="https://github.com/GabrielZirk" target="_blank">on:github</a></li>
+              <li><a href="https://www.linkedin.com/in/gabrielzirkovits" target="_blank">on:LinkedIn</a></li>
+              <li><a href="#contact">contact:me</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="collapse navbar-collapse" id="header-menu">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#top">about:me</a></li>
-            <li><a href="#projects">my:projects</a></li>
-            <li><a href="https://github.com/GabrielZirk" target="_blank">on:github</a></li>
-            <li><a href="https://www.linkedin.com/in/gabrielzirkovits" target="_blank">on:LinkedIn</a></li>
-            <li><a href="#contact" Hey bro, I've a question :)">contact:me</a></li>
-          </ul>
-        </div>
+      </nav>
 
-    </nav>
-    </div>
 
-    <div class="container">
       <div class="jumbotron">
         <h3><em>"The definition of insanity is doing the same thing over and over again, but expecting different
             results."</em></h3>
         <p style="text-align:right">Albert Einstein</p>
         <hr class="my-4">
       </div>
-    </div>
-
-  </header>
-  <!-- Container (about:me section) -->
-  <div class="container">
 
 
+    </header>
+    <!-- Container (about:me section) -->
     <div id="about" class="spacer"></div>
-    <div class="container-fluid" href="about">
-      <div class="row vertical-align">
+
+
+    <div class="container-fluid">
+      <div class="row">
         <div class="col-sm-4 text-center">
           <h2>about:me</h2>
         </div>
+        <div class="col-sm-8">
+        </div>
       </div>
-      <div class="row vertical-align">
-        <div class="col-sm-4">
+      <div class="row aligned-row">
+        <div class="col-sm-4 center-block">
           <p><img src="img/comicme2_circle.png" class="center-block" width=250px></p>
         </div>
         <div class="col-sm-8">
+
+          <h4>
+            Hey :) <br>
+            Nice to see you here. I'm Gabriel, a wannabe full-stack data scientist. &lt;&lt;irony off&gt;&gt; <br>
+            You will find my projects (and some more text) here in the near future.</h4>
+
         </div>
-        <h4>
-          Hey :) <br>
-          Nice to see you here. I'm Gabriel, a wannabe full-stack data scientist. &lt;&lt;ironyoff&gt;&gt; <br>
-          You will find my projects (and some more text) here in the near future.</h4><br>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="text-center" style="color:white; font-size: 30px;">
-    <p>--------</p>
-  </div>
-  <!-- Container (projekt timeline section) -->
-  <div id="projects" class="spacer"></div>
-  <div class="container" href="projects">
-    <div class="row">
-      <div class="col-sm-8 ">
-      </div>
-      <div class="col-sm-4">
-        <h2 class="text-center">my:projects</h2>
       </div>
     </div>
 
-    <ul class="timeline">
-      <li>
-        <div class="timeline-badge">
-          <a><i class="fa fa-circle" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4>Started my studies in Business Data Science</h4>
-          </div>
-          <div class="timeline-body">
-            <p>I love it.</p>
-          </div>
-          <div class="timeline-footer">
-            <p class="text-right">10-2020</p>
-          </div>
-        </div>
-      </li>
+    <div class="text-center" style="color:white; font-size: 30px;">
+      <p>--------</p>
+    </div>
 
-      <li class="timeline-inverted">
-        <div class="timeline-badge">
-          <a><i class="fa fa-circle invert" id=""></i></a>
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4>My portfolio website is online</h4>
-          </div>
-          <div class="timeline-body">
-            <p>First experience with bootstrap.</p>
-          </div>
-          <div class="timeline-footer">
-            <p class="text-right">12-2021</p>
-          </div>
-        </div>
-      </li>
 
-      <li class="clearfix no-float"></li>
-    </ul>
+    <!-- Container (projekt timeline section) -->
+    <div id="projects" class="spacer"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 ">
+        </div>
+        <div class="col-sm-4">
+          <h2 class="text-center">my:projects</h2>
+        </div>
+      </div>
 
-  </div>
+      <ul class="timeline">
+        <li>
+          <div class="timeline-badge">
+            <a><i class="fa fa-circle" id=""></i></a>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>Started my studies in Business Data Science</h4>
+            </div>
+            <div class="timeline-body">
+              <p>I love it.</p>
+            </div>
+            <div class="timeline-footer">
+              <p class="text-right">10-2020</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="timeline-badge">
+            <a><i class="fa fa-circle invert" id=""></i></a>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4>My portfolio website is online</h4>
+            </div>
+            <div class="timeline-body">
+              <p>First experience with bootstrap.</p>
+            </div>
+            <div class="timeline-footer">
+              <p class="text-right">12-2020</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="clearfix no-float"></li>
+      </ul>
+    </div>
 
   </div>
   <div class="text-center" style="color:white; font-size: 30px;">
@@ -140,7 +142,6 @@
   </div>
 
   <div id="contact" class="spacer">
-
   </div>
 
   <div class="container" href="contact">
@@ -151,24 +152,25 @@
       <div class="col-sm-8">
       </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12 ">
+        <form action="mail.php" method="POST">
+          <input name="name" type="text" class="feedback-input" placeholder="Name" />
+          <input name="email" type="text" class="feedback-input" placeholder="Email" />
+          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </div>
   </div>
-  <div class="container">
 
-    <form action="mail.php" method="POST">
-      <input name="name" type="text" class="feedback-input" placeholder="Name" />
-      <input name="email" type="text" class="feedback-input" placeholder="Email" />
-      <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-      <input type="submit" value="SUBMIT" />
-    </form>
-
-  </div>
 
   <div class="text-center" style="color:white; font-size: 30px;">
     <p>--------</p>
   </div>
 
 
-
+  </div>
 </body>
 
 <footer>

@@ -62,7 +62,6 @@
     transition:all .4s;
     border-color: transparent;
 }
-
 .navbar-default .navbar-toggle {
   border-color: white;
   color: #fff !important;
@@ -98,6 +97,16 @@ h4 {
 .spacer {
   padding: 10px;
 }
+
+.aligned-row {
+  display: flex;
+  flex-flow: row wrap;
+
+  &::before {
+    display: block;
+  }
+}
+
 
 /* -----------------------------------------------
  * Timeline
