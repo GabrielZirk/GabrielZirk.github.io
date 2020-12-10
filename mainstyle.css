@@ -298,7 +298,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #ffffff;
+  border:2px dashed #ffffff;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
