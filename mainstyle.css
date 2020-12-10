@@ -1,6 +1,6 @@
 /* myStyle.css */
 .body {
-    font: 20px Montserrat, sans-serif;
+    font: 300 15px Lato, sans-serif;
     line-height: 1.8;
     color: #000000;
     background-color: #4ba16f;
@@ -46,7 +46,7 @@
     -ms-transition:all .4s;
     -o-transition:all .4s;
     transition:all .4s;
-    border-color: transparent;
+    border-color: white;
 }
 
 .navbar-default button.navbar-toggle:focus,
@@ -60,7 +60,7 @@
 }
 
 .navbar-default .navbar-toggle {
-  border-color: transparent;
+  border-color: white;
   color: #fff !important;
 }
 
