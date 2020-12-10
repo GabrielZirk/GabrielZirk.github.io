@@ -38,6 +38,9 @@
   background-position: center;
   background-blend-mode: normal;
   color: white;
+  border-color: white;
+  border-width: 3px;
+  border-style: dashed;
 }
 
 .navbar-default button.navbar-toggle.collapsed:focus,
