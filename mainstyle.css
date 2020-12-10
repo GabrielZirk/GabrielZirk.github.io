@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0px;
     background-color: #4ba16f;
+    font-weight: 800;
   }
 
 .navbar a {
@@ -64,24 +65,26 @@
   color: #fff !important;
 }
 
-.carousel {
-  border-radius: 10px 10px 10px 10px;
-  overflow: hidden;
-  ...
-}
-.carousel-inner .item{
-  height:500px;
-  background-size:cover;
-  background-position: center center;
-  background-color: white;
-  border-radius: 5 px;
-  }
-  .carousel-control.left, .carousel-control.right {
-    background-image: none
-}
-
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+h2 {
+  font: 300 30px East Sea Dokdo, sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 200;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+h4 {
+  font: 300 30px Lato, sans-serif;
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #000000;
+  font-weight: 800;
+  margin-bottom: 30px;
+}  
