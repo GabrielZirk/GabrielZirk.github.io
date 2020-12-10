@@ -39,7 +39,7 @@
   background-blend-mode: normal;
   color: white;
   border-color: white;
-  border-width: 3px;
+  border-width: 2px;
   border-style: dashed;
 }
 
@@ -67,7 +67,7 @@
   border-color: white;
   color: #fff !important;
   border-style:dashed;
-  border-width: 3px;
+  border-width: 2px;
 }
 
 .center-block {
@@ -320,7 +320,7 @@ textarea {
   width: 100%;
   background: transparent;
   border-radius:5px;
-  border:2px solid #ffffff;
+  border:2px dashed #ffffff;
   cursor:pointer;
   color:white;
   font-size:24px;
