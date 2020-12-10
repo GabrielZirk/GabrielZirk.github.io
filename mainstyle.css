@@ -66,6 +66,8 @@
 .navbar-default .navbar-toggle {
   border-color: white;
   color: #fff !important;
+  border-style:dashed;
+  border-width: 3px;
 }
 
 .center-block {
