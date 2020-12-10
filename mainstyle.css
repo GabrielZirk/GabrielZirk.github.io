@@ -89,7 +89,9 @@ h4 {
   margin-bottom: 30px;
 }  
 
-
+.spacer {
+  padding: 20px;
+}
 
 /* -----------------------------------------------
  * Timeline
