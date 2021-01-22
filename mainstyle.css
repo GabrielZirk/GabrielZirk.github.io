@@ -70,6 +70,7 @@
 hr {
   border: 0;
 }
+
 hr::after {
   display: inline-block;
   text-align: center;
