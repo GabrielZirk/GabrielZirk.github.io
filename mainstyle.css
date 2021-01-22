@@ -36,6 +36,14 @@
     }
 }
 /* myStyle.css */
+
+.hrsep {
+  border:none;
+  border-top: 3px dashed white;
+  text-align: center;
+  width: 10%;
+}
+
 .body {
     font: 300 15px Lato, sans-serif;
     line-height: 1.8;
@@ -67,17 +75,7 @@
     border: none;
     box-shadow: none;
   }
-hr {
-  border: 0;
-}
 
-hr::after {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  content: "---------";
-  font-weight: 900;
-}
 .jumbotron{
   background-image: url("img/forrest_background.jpg");
   background-color: rgba(255, 255, 255, 0.521);
