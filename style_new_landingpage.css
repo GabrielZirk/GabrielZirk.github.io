@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1200px) {
+    div.right-col-container {
+        margin: 0;
+        flex-basis: 100%;
+    }
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    nav ul a {
+        flex-basis: 50%;
+        text-align: center;
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    div.right-col-container {
+        margin: 0;
+        flex-basis: 100%;
+    }
+    nav ul {
+        flex-wrap: wrap;
+    }
+
+    nav ul a {
+        flex-basis: 100%;
+        text-align: center;
+        margin-left: 0rem;
+    }
+}
+
+body {
+    font-family: 'Quantico', sans serif;
+    margin-right: 4rem,
+}
+.parent-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: -webkit-flex; /* old versions of Chrome/Safari/Opera */
+    display: -ms-flexbox; /* IE10 */  
+    -webkit-flex-wrap: wrap; /* old versions of Chrome/Safari/Opera */
+    justify-content: center; /* align horizontal */
+}
+
+div.left-col-logo {
+    /*background-color: red;*/
+    align-self: flex-end;
+}
+
+div.right-col-container {
+    /*background-color: green;*/
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    /*background-color: lightslategray;*/
+}
+
+nav a {
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem 0.5rem 0 ;
+}
+nav a a {
+    margin-left: 1rem;
+}
+
+nav a:hover {
+    
+}
+
+.hoverpic{
+    content:url(img/bulblight.svg)
+}
