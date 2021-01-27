@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0;
     padding: 0;
 }
@@ -54,7 +54,18 @@ body {
 
 div.left-col-logo {
     /*background-color: red;*/
-    align-self: flex-end;
+    width: 600px;
+    height: 600px;
+    background-image: url("img/bulbdark.svg");
+    background-size: cover;
+}
+
+div.left-col-logo:hover {
+    /*background-color: red;*/
+    width: 600px;
+    height: 600px;
+    background-image: url("img/bulblight.svg");
+    background-size: cover;
 }
 
 div.right-col-container {
@@ -82,6 +93,12 @@ nav a:hover {
     
 }
 
-.hoverpic{
-    content:url(img/bulblight.svg)
-}
+a img:last-child {
+    display: none;  
+  }
+a:hover img:last-child {
+    display: block;  
+  }
+a:hover img:first-child {
+    display: none;  
+  }
