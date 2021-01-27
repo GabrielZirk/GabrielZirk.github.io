@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     div.right-col-container {
         margin: 0;
         flex-basis: 100%;
