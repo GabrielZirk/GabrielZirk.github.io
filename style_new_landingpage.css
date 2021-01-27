@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     margin: 0;
     padding: 0;
 }
@@ -60,14 +60,6 @@ div.left-col-logo {
     background-size: cover;
 }
 
-div.left-col-logo:hover {
-    /*background-color: red;*/
-    width: 600px;
-    height: 600px;
-    background-image: url("img/bulblight.svg");
-    background-size: cover;
-}
-
 div.right-col-container {
     /*background-color: green;*/
     flex-grow: 1;
@@ -78,12 +70,12 @@ nav ul {
     /*background-color: lightslategray;*/
 }
 
-nav a {
-    flex-grow: 1;
+nav ul a {
+    flex-grow: 2;
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 0.5rem 0.5rem 0.5rem 0 ;
+    padding: 0.5rem 0.5rem 0.5rem 0;
 }
 nav a a {
     margin-left: 1rem;
@@ -92,13 +84,3 @@ nav a a {
 nav a:hover {
     
 }
-
-a img:last-child {
-    display: none;  
-  }
-a:hover img:last-child {
-    display: block;  
-  }
-a:hover img:first-child {
-    display: none;  
-  }
