@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     margin: 0;
     padding: 0;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 480px) {
     body {
         margin: 0rem;
     }
@@ -21,12 +21,28 @@
         text-align: center;
         margin-left: 0rem;
         background-color: lightsteelblue;
-}
+    }
     nav a:active {
         color: white;
+    }
+    #left-col p.logotext1 {
+        font-size: 3.5rem!important;
+        left: 0.3rem;
+
+    }
+    #left-col p.logotext2 {
+        font-size: 3.5rem!important;
+        left: 0.3rem!important;
+        top: 30vh;
+    }
+    #left-col p.logotext3 {
+        font-size: 3.5rem!important;
+        left: 0.3rem!important;
+        top: 50vh;
+
+    }
 }
-}
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1150px) {
     body {
         margin: 0rem!important;
     }
@@ -45,8 +61,22 @@
     }
     nav a:active {
         color: white;
-}
-
+    }
+    #left-col p.logotext1 {
+        top: 5vh!important;
+        font-size: 8rem;
+        left: 0.5rem!important;
+    }
+    #left-col p.logotext2 {
+        font-size: 8rem;
+        left: 0.5rem;
+        top: 25vh;
+    }
+    #left-col p.logotext3 {
+        font-size: 8rem;
+        left: 0.5rem;
+        top: 45vh;
+    }
 }
 body {
     font-family: 'Quantico', sans serif;
@@ -66,7 +96,8 @@ body {
 div.left-col-logo{
     /*background-color: red;*/
     max-width: 600px;
-    height: 100%px;
+    height: 100%;
+    position: relative;
 }
 
 div.right-col-container {
@@ -91,4 +122,26 @@ nav a a {
 }
 nav a:hover {
     background-color:lightsteelblue;
+}
+
+div p.logotext1 {
+    font-weight: bold;
+    position: absolute;
+    top: 10vh;
+    left: 0.5vw;
+    font-size: 9rem;
+}
+div p.logotext2 {
+    font-weight: bold;
+    position: absolute;
+    top: 38vh;
+    left: 0.5vw;
+    font-size: 7rem;
+}
+div p.logotext3 {
+    font-weight: bold;
+    position: absolute;
+    top: 60vh;
+    left: 0.5rem;
+    font-size: 7rem;
 }
