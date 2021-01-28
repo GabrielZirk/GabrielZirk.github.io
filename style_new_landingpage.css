@@ -7,7 +7,10 @@
 
 @media all and (max-width: 480px) {
     body {
-        margin: 0rem;
+        margin: 0rem!important;
+    }
+    div.parent-container{
+        margin:0;
     }
     div.right-col-container {
         margin: 0rem;
@@ -41,10 +44,16 @@
         top: 50vh;
 
     }
+    div.left-col-logo{
+        position: static!important;
+    }
 }
 @media all and (max-width: 1150px) {
     body {
         margin: 0rem!important;
+    }
+    div.parent-container{
+        margin:0;
     }
     div.right-col-container {
         margin: 0rem;
@@ -77,11 +86,14 @@
         left: 0.5rem;
         top: 45vh;
     }
+    div.left-col-logo{
+        position: static!important;
+    }
 }
 body {
     font-family: 'Quantico', sans serif;
     margin-right: 3rem;
-    margin-top: 3rem;
+    margin-top: 0rem;    
 }
 .parent-container {
     display: flex;
@@ -97,12 +109,14 @@ div.left-col-logo{
     /*background-color: red;*/
     max-width: 600px;
     height: 100%;
-    position: relative;
+    position: sticky;
+    top:0;
 }
 
 div.right-col-container {
     /*background-color: green;*/
     flex-grow: 1;
+    margin-top: 3rem;
 }
 
 nav ul {
@@ -129,14 +143,15 @@ div p.logotext1 {
     position: absolute;
     top: 10vh;
     left: 0.5vw;
-    font-size: 9rem;
+    font-size: 7rem;
 }
 div p.logotext2 {
     font-weight: bold;
     position: absolute;
-    top: 38vh;
+    top: 35vh;
     left: 0.5vw;
     font-size: 7rem;
+    color: lightsteelblue;
 }
 div p.logotext3 {
     font-weight: bold;
