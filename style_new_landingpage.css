@@ -22,8 +22,9 @@
         margin-left: 0rem;
         background-color: lightsteelblue;
 }
-nav a:active {
-    color: white;
+    nav a:active {
+        color: white;
+}
 }
 @media all and (max-width: 1100px) {
     body {
@@ -42,6 +43,9 @@ nav a:active {
         margin-left: 0rem;
         background-color: lightsteelblue;
     }
+    nav a:active {
+        color: white;
+}
 
 }
 body {
