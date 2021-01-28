@@ -1,48 +1,55 @@
 * {
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0;
     padding: 0;
 }
 
-@media (max-width: 1200px) {
+@media all and (max-width: 767px) {
+    body {
+        margin: 0rem;
+    }
     div.right-col-container {
-        margin: 0;
+        margin: 0rem;
         flex-basis: 100%;
     }
     nav ul {
         flex-wrap: wrap;
     }
-
-    nav ul a {
+    nav a {
+        min-width: 100%;
+        text-align: center;
+        margin-left: 0rem;
+        background-color: lightsteelblue;
+}
+nav a:active {
+    color: white;
+}
+@media all and (max-width: 1100px) {
+    body {
+        margin: 0rem!important;
+    }
+    div.right-col-container {
+        margin: 0rem;
+        flex-basis: 100%;
+    }
+    nav ul {
+        flex-wrap: wrap;
+    }
+    nav a {
         flex-basis: 50%;
         text-align: center;
         margin-left: 0rem;
+        background-color: lightsteelblue;
     }
+
 }
-
-@media (max-width: 480px) {
-    div.right-col-container {
-        margin: 0;
-        flex-basis: 100%;
-    }
-    nav ul {
-        flex-wrap: wrap;
-    }
-
-    nav ul a {
-        flex-basis: 100%;
-        text-align: center;
-        margin-left: 0rem;
-    }
-}
-
 body {
     font-family: 'Quantico', sans serif;
-    margin-right: 4rem,
+    margin-right: 3rem;
+    margin-top: 3rem;
 }
 .parent-container {
-    margin-top: 3rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,12 +59,10 @@ body {
     justify-content: center; /* align horizontal */
 }
 
-div.left-col-logo {
+div.left-col-logo{
     /*background-color: red;*/
-    width: 600px;
-    height: 600px;
-    background-image: url("img/bulbdark.svg");
-    background-size: cover;
+    max-width: 600px;
+    height: 100%px;
 }
 
 div.right-col-container {
@@ -67,20 +72,19 @@ div.right-col-container {
 
 nav ul {
     display: flex;
-    /*background-color: lightslategray;*/
 }
 
 nav ul a {
-    flex-grow: 2;
+    flex-grow: 1;
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 0.5rem 0.5rem 0.5rem 0;
+    text-align: center;
 }
 nav a a {
     margin-left: 1rem;
 }
-
 nav a:hover {
-    
+    background-color:lightsteelblue;
 }
