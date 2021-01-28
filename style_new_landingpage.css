@@ -19,7 +19,7 @@
         position: absolute; /*makes shure the background img is the same size as the parent*/
         top: -300px!important;
         left: 0px!important;
-        background-image: url("img/bulbdark.svg");
+        background-image: url("img/bulblight.svg");
         background-repeat: no-repeat;
         background-size: 100vw 100vh!important;
         opacity: 0.25;
@@ -71,7 +71,7 @@ body.background-img::before {
     left: 10rem;
     right: 0px;
     bottom: 0px;
-    background-image: url("img/bulbdark.svg");
+    background-image: url("img/bulblight.svg");
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 600px;
