@@ -35,17 +35,17 @@
         height: 100vh;
     }
     #left-col p.logotext1 {
-        top: -2rem;
+        top: -4rem;
         left: 2rem;
         font-size: 30vw;
     }
     #left-col p.logotext2 {
-        top: 25vh;
+        top: 20vh;
         left: 0.3rem;
         font-size: 30vw;
     }
     #left-col p.logotext3 {
-        top: 60vh;
+        top: 55vh;
         left: 0.3rem;
         font-size: 22vw;
     }
