@@ -5,7 +5,28 @@
     padding: 0px;
 }
 @media (max-width: 1200px) and (orientation: landscape){
-
+    .scrollhint {
+        position: absolute;
+        left: 80vw;
+        top: 15vh;
+        text-align: center;
+        font-size: 3vw;
+      }
+      .scrollhint::after {
+        content:"Scroll :)";
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
     div.parent-container{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100vw, 1fr));
