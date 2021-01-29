@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     margin: 0px;
     padding: 0px;
 }
@@ -81,6 +81,12 @@
     }
 }
 @media (max-width: 1200px) and (orientation: portrait){
+    div.portfolio-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        column-gap: 20px; 
+        row-gap: 0px;       
+    }
     .scrollhint {
         position: absolute;
         width: 100vw;
@@ -186,7 +192,7 @@ body.background-img::before {
 .parent-container {
     display: grid;
     gap: 0 20px;
-    grid-template-columns: 45vw 50vw;
+    grid-template-columns: 600px 1fr;
     grid-template-rows: 100vh;
 }
 .left-col-logo{
@@ -240,4 +246,27 @@ div p.logotext3 {
 }
 h1.h1about-me {
     font-size: 4rem;
+}
+#aboutme {
+    margin: 1rem;
+}
+
+div.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+}
+div.portfolio-item {
+    width: 100%!important;
+}
+#portfolio {
+    margin: 1rem;
+}
+div.portfolio-item img{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+p.p-portfolio{
+    word-wrap: break-word;
 }
