@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     margin: 0px;
     padding: 0px;
 }
@@ -52,13 +52,35 @@
         flex-wrap: wrap;
     }
     nav a {
-        min-width: 100%;
+        width: 100vw;
         text-align: center;
         margin-left: 0rem;
         background-color: lightsteelblue;
     }
 }
 @media (max-width: 1200px) and (orientation: portrait){
+    .scrollhint {
+        position: absolute;
+        width: 100vw;
+        top: 90vh;
+        text-align: center;
+        font-size: 5vw;
+      }
+      .scrollhint::after {
+        content:"Why don't you scroll down? :)";
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
 
     div.parent-container{
         display: grid;
@@ -90,7 +112,7 @@
     #left-col p.logotext1 {
         top: 5vh;
         left: 2rem;
-        font-size: 40vw;
+        font-size: 35vw;
     }
     #left-col p.logotext2 {
         left: 0.3rem;
@@ -100,18 +122,22 @@
     #left-col p.logotext3 {
         left: 0.3rem;
         top: 60vh;
-        font-size: 22vw;
+        font-size: 20vw;
     }
     nav ul {
         flex-wrap: wrap;
+        width: 100%;
     }
     nav a {
-        min-width: 100%;
+        width: 100%;
         text-align: center;
         margin-left: 0rem;
         background-color: lightsteelblue;
     }
 }
+html {
+    scroll-behavior: smooth;
+  }
 body {
     font-family: 'Quantico', sans serif;
     margin-top: 0rem; 
