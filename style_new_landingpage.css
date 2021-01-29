@@ -83,7 +83,7 @@
 @media (max-width: 1200px) and (orientation: portrait){
     div.portfolio-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr))!important;
         column-gap: 20px; 
         row-gap: 0px;       
     }
@@ -169,7 +169,7 @@ html {
   }
 body {
     font-family: 'Quantico', sans serif;
-    margin-top: 0rem; 
+    margin-top: 0rem;
 }
 body.background-img{
     position: relative;
@@ -194,16 +194,19 @@ body.background-img::before {
     gap: 0 20px;
     grid-template-columns: 600px 1fr;
     grid-template-rows: 100vh;
+    overflow: hidden;
 }
-.left-col-logo{
+div.left-col-logo{
     /*background-color: red;*/
     /*width: 600px;
     height: 100%;*/
-
+    position: sticky;
+    top: 0px;
 }
 .right-col-main {
     /*background-color: green;*/
     margin-top: 3rem;
+    overflow-y: scroll;
 }
 nav ul {
     display: flex;
@@ -244,8 +247,8 @@ div p.logotext3 {
     left: 0.5rem;
     font-size: 8rem;
 }
-h1.h1about-me {
-    font-size: 4rem;
+h2.h2-sections {
+    font-size: 2.5rem;
 }
 #aboutme {
     margin: 1rem;
@@ -253,11 +256,10 @@ h1.h1about-me {
 
 div.portfolio-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
 }
 div.portfolio-item {
-    width: 100%!important;
 }
 #portfolio {
     margin: 1rem;
