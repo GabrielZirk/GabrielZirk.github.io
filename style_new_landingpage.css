@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 0px;
     padding: 0px;
 }
