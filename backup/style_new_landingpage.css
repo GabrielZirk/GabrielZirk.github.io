@@ -17,7 +17,7 @@
     body.background-img::before {
         content: '';
         position: absolute; /*makes shure the background img is the same size as the parent*/
-        top: 0px!important;
+        top: -300px!important;
         left: 0px!important;
         background-image: url("img/bulblight.svg");
         background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body.background-img::before {
     bottom: 0px;
     background-image: url("img/bulblight.svg");
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: left center;
     background-size: 600px;
     opacity: 0.25;
     z-index:-1;
@@ -82,8 +82,9 @@ body.background-img::before {
 .parent-container {
     display: grid;
     gap: 0 20px;
-    grid-template-columns: 45vw 50vw;
+    grid-template-columns: 600px 800px;
     grid-template-rows: 100vh;
+    justify-content: left; /* align horizontal */
 }
 .left-col-logo{
     /*background-color: red;*/
